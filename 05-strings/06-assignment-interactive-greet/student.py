@@ -1,5 +1,9 @@
 # write your code here
 # hehe ENTER.
 def interactive_greet():
-    name = input("Enter your name: ")
-    print (f"Hello, {name}!")
+    name_name = input("Enter your name: ")
+    print (greet(name_name))
+
+# write your code here
+def greet(name):
+    return (f"Hello, {name}!")
